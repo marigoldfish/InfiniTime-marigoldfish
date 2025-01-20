@@ -15,6 +15,7 @@
 #include "displayapp/screens/WatchFacePineTimeStyle.h"
 #include "displayapp/screens/WatchFaceTerminal.h"
 #include "displayapp/screens/WatchFaceTrans.h"
+#include "displayapp/screens/WatchFaceStarTrek.h"
 
 namespace Pinetime {
   namespace Applications {

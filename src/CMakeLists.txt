@@ -427,6 +427,7 @@ list(APPEND SOURCE_FILES
         displayapp/screens/WatchFacePineTimeStyle.cpp
         displayapp/screens/WatchFaceCasioStyleG7710.cpp
         displayapp/screens/WatchFaceTrans.cpp
+        displayapp/screens/WatchFaceStarTrek.cpp
 
         ##
 

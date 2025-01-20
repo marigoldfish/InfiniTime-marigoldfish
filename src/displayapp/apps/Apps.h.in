@@ -53,6 +53,7 @@ namespace Pinetime {
       Infineat,
       CasioStyleG7710,
       Trans,
+      StarTrek,
     };
 
     template <Apps>
