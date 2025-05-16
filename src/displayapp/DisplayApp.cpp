@@ -503,9 +503,6 @@ void DisplayApp::Refresh() {
         vTaskDelay(pdMS_TO_TICKS(500));
         motorController.RunForDuration(100);
         break;
-      case Messages::OnChargingEvent:
-        motorController.RunForDuration(15);
-        break;
     }
   }
 

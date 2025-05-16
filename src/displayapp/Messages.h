@@ -27,7 +27,6 @@ namespace Pinetime {
         HalfHourChime,
         ThreeQuarterHourChime,
         BleRadioEnableToggle,
-        OnChargingEvent,
       };
     }
   }
