@@ -50,7 +50,7 @@ namespace Pinetime {
         Utility::DirtyValue<uint32_t> stepCount {};
         Utility::DirtyValue<bool> notificationState {};
         Utility::DirtyValue<std::chrono::time_point<std::chrono::system_clock, std::chrono::days>> currentDate;
-        // Must be wrapped in a dirty value, since it is displayed in the day but is updated twice a day
+        // Must be wrapped in a dirty value, since it is displayed in the day but is updated twice a day 
         Utility::DirtyValue<const char*> ampmChar {"AM"};
 
         static Pinetime::Controllers::Settings::PrideFlag GetNext(Controllers::Settings::PrideFlag prideFlag);
